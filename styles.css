@@ -1,0 +1,239 @@
+.header {
+    /* border: 1px solid rgb(83, 45, 218); */
+    background-color: rgb(249, 244, 249); 
+    width:100%;
+    height: 80px;
+    display:flex; /* HORIZONTAL EXPANSION */
+    align-items: center;
+    padding: 10px 30px;
+    justify-content: space-between;
+}
+
+.block2{
+list-style: none;
+display: flex;
+gap: 20px;
+}
+
+
+
+
+
+
+
+/* FIRST BOX */
+
+
+.introduction {
+    /* border: 1px solid rgb(86, 59, 182); */
+    background-color: rgb(207, 200, 239);
+    height: 100%;
+}
+
+.container {
+    border: 2px solid green;
+    height: 30em;
+    display: flex;
+    flex-direction: row;
+}
+
+.box1 {
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.box2 {
+    border: 2px solid white;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+/* SECOND BOX  */
+
+.sec2{
+    /* border: 2px solid black; */
+
+    background-color: rgb(205, 182, 213);
+    height: 20em;
+    width: 100%;
+    display: flex;
+    flex-direction:row ;
+    text-align: center;
+
+
+}
+.pic1{
+    
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+    height: 10em;
+    width: 10em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.pic1 img {
+
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+
+}
+
+.pic2{
+    border: 2px solid black;
+    height: 10em;
+    width: 10em;
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+    
+}
+.pic2 img {
+
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+
+}
+.pic3{
+    border: 2px solid black;
+    height: 10em;
+    width: 10em;
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pic3 img {
+
+    flex-shrink:0;
+    min-width: 100%;
+    min-height: 100%
+
+}
+
+.pic4{
+    border: 2px solid black;
+    height: 10em;
+    width: 10em;
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pic4 img {
+
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+
+
+    /* width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+
+}
+
+
+
+
+
+
+
+
+
+/* .quote{
+    
+    background-color: rgb(18, 42, 48);
+} */
+
+.quote{
+    background-color: rgb(203, 233, 241);
+    height: 10em;
+    width: 100%;
+    text-align: center; 
+    top:0;
+    bottom: 0;
+}
+
+
+
+.signupbox{
+    background-color: rgb(15, 68, 72);
+    height: 10em;
+    width: 100%;
+}
+.sec3 {
+    background-color: rgb(60, 197, 99);
+    height: 10em;
+    width: 100%;  
+    flex-wrap: wrap;
+    
+}
+.enrollbox {
+
+
+
+        background-color: rgb(39, 74, 187);
+        height: 10em;
+        width: 50%; 
+        margin-top:auto;
+        margin-left: 25%;
+        /* margin-right: 10px;  */
+    
+}
+
+
+
+/* 
+a:link, a:visited {
+    background-color: #3071e2;
+    color: white;
+    border-color: antiquewhite;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    left: 40;
+    width: 10%;
+    /* margin-top: 25%;
+    /* margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 10%;
+}
+  a:hover, a:active {
+    background-color: rgb(31, 137, 208);
+  } */ 
+
+
+.footer{
+    background-color: rgb(48, 44, 46);
+    height: 5em;
+    width: 100%;
+    color: white;
+    text-align: center; 
+    display: block;
+
+    top:0;
+    bottom: 0;
+   
+}
